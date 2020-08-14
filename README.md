@@ -1,4 +1,4 @@
-User Guide
+# User Guide
 
 In order to run our application on the command line, the user should type “ python3 main.py ”
 
@@ -19,6 +19,7 @@ option from one of the 4 main functions of the program;
 * NOTE : at the end of each execution of a selected option, an html file will created and store
 into the current directory 
 
+### Option 1
 If the user selects the first option then the user will have to input the start year, end year and
 type of crime. Afterwards a bar chart is displayed from the created query with the months (from 1 to
 12 ) labelled on the x-axis and the count representing the total number of incidents being on the
@@ -27,6 +28,7 @@ the bar chart will still display the month having a count of zero. The screen wi
 is executed and the main menu will be presented again where the user is prompted to choose a new
 option.
 
+### Option 2
 Selecting the second option, the user will have to input an integer greater than zero. Upon
 entering the integer, a html file will be created through Folium. This file is a map representation of
 the top N most populated neighbourhoods and the Top N least populated neighborhoods. The
@@ -37,6 +39,7 @@ N (+1) most populated neighbourhoods and the green outlined circles represent th
 least populated neighbourhoods. The screen will clear once an option is executed and the main
 menu will be presented again where the user is prompted to choose a new option.
 
+### Option 3
 The third option will need the user to input a start year, end year, type of crime and number
 of neighbourhoods. After the last input, a html file will be generated through Folium which represents
 a map displaying the top neighbourhoods based on user input of range of years and crime type. The
@@ -46,6 +49,7 @@ then it will display the Top N +1 and/or bottom N + 1 neighbourhoods depending o
 present. The screen will clear once an option is executed and the main menu will be presented again
 where the user is prompted to choose a new option.
 
+### Option 4
 Finally the fourth option, the user will be prompted to input the start year, end year and the
 number of neighborhoods. A html file will be created through the use of Folium to display a map of
 the top N neighbourhoods with the highest crimes to population ratio as well as the most frequent
